@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Barlow", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    color: #fff;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.button {
+    width:100%;
+    display:flex;
+    justify-content:center;
+    height:90px;
+    align-items:center;
+    color: transparent;
+    background-color: transparent;
+    border: 0px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.button:hover {
+    color: #fff; 
+}
